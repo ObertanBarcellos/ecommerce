@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BsSearch } from 'react-icons/bs';
 import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     height: 60px;
@@ -45,9 +45,10 @@ const Center = styled.div`
 const Logo = styled.h1`
     font-weight: bold;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-underline: none;
 `;
-
-
 
 const Right = styled.div`
     flex: 1;
@@ -75,7 +76,9 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>NCL Sell</Logo>
+                <Link to="/">
+                    <Logo>NCL Sell</Logo>
+                </Link>
             </Center>
             <Right>
                 <MenuItem>Register</MenuItem>
