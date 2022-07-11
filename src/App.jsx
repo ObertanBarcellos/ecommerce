@@ -1,10 +1,27 @@
 import './App.css';
-import Home from './pages/Home';
+import { BrowserRouter } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Router from './Router';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+import Announcement from './components/Announcement';
 
 
 const App = () => {
   return (
-    <Home />
+    <BrowserRouter>
+    
+      <Announcement />
+
+      <Navbar />
+
+      <Router />
+
+      <Newsletter />
+
+      <Footer />
+
+    </BrowserRouter>
   );
 }
 
