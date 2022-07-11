@@ -31,7 +31,8 @@ const Arrow = styled.div`
     z-index: 2; 
 
     &:hover {
-        opacity: 1;
+        opacity: 1; 
+        background-color: rbg(190,190,190);
     }
 `;
 
@@ -75,6 +76,10 @@ const Button = styled.button`
     font-size: 15px;
     background-color: transparent;
     cursor: pointer;
+
+    &:hover {
+        background-color: rgb(210,210,210)
+    }
 `;
 
 
