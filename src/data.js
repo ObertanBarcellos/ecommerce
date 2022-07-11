@@ -1,8 +1,8 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "SUMMER SALE",
+      img: "https://ffw.uol.com.br/app/uploads/noticias/2021/03/whatsapp-image-2021-03-29-at-195736-1.jpeg",
+      title: "NIKE SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
@@ -47,7 +47,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://images.lojanike.com.br/500x500/produto/tenis-air-force-1-react-15-masculino-DH7615-100-1-11655148090.jpg",
     },
     {
       id:3,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://images.lojanike.com.br/500x500/produto/tenis-air-jordan-1-mid-masculino-554724-201-1-11647526313.jpg",
     },
     {
       id:8,

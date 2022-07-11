@@ -56,6 +56,7 @@ const ImgContainer = styled.div`
     flex: 1;
 `;
 const Image = styled.img`
+    margin-left: 15%;
     height: 80%;
 `;
 const InfoContainer = styled.div`

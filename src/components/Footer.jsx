@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Facebook, Instagram, Twitter, Pinterest, Room, Phone, MailOutline } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -49,11 +50,14 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 `;
 
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+  color: black;
 `;
 
 const Right = styled.div`
@@ -99,16 +103,12 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
-          <ListItem>Home</ListItem>
+          <Link to ="/"><ListItem>Home</ListItem></Link>
           <ListItem>Cart</ListItem>
-          <ListItem>Man Fashion</ListItem>
+          <Link to ="/products"><ListItem>Products</ListItem></Link>
           <ListItem>Woman Fashion</ListItem>
           <ListItem>Accessories</ListItem>
           <ListItem>My Account</ListItem>
-          <ListItem>Order Tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
         </List>
       </Center>
       <Right>
