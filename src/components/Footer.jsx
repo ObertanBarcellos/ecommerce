@@ -104,10 +104,15 @@ const Footer = () => {
         <Title>Useful Links</Title>
         <List>
           <Link to ="/"><ListItem>Home</ListItem></Link>
-          <ListItem>Cart</ListItem>
+
+          <Link to="/cart"><ListItem>Cart</ListItem></Link>
+
           <Link to ="/products"><ListItem>Products</ListItem></Link>
-          <ListItem>Woman Fashion</ListItem>
-          <ListItem>Accessories</ListItem>
+
+          <Link to="/login"><ListItem>Login</ListItem></Link>
+
+          <Link to="/register"><ListItem>Register</ListItem></Link>
+
           <ListItem>My Account</ListItem>
         </List>
       </Center>

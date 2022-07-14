@@ -61,6 +61,8 @@ const MenuItem = styled.div`
     cursor: pointer;
     margin-left: 15px;
     margin-right: 15px;
+    color: black;
+    text-decoration: none;
 `;
 
 
@@ -81,13 +83,21 @@ const Navbar = () => {
                 </Link>
             </Center>
             <Right>
-                <MenuItem>Register</MenuItem>
-                <MenuItem>Sign In</MenuItem>
-                <MenuItem>
-                <Badge badgeContent={0} color="primary">
-                    <ShoppingCartOutlinedIcon />
-                </Badge>
-                </MenuItem>
+                <Link to ="/register">
+                    <MenuItem>Register</MenuItem>
+                </Link>
+                <Link to ="/login">
+                    <MenuItem>Sign In</MenuItem>
+                </Link>
+
+                <Link to ="/cart">
+                    <MenuItem>
+                        <Badge badgeContent={0} color="primary">
+                            <ShoppingCartOutlinedIcon />
+                        </Badge>
+                    </MenuItem>
+                </Link>
+                
             </Right>
        </Wrapper>
     </Container>
