@@ -77,47 +77,56 @@ export const popularProducts = [
 
 export const products = [
   {
-    itemId: 1,
-    itemName: "Tênis Nike Air Force 1 '07 LV8 2 Masculino",
-    price: 749.99,
-    colors: "gray",
-    img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-1-11648130623.jpg",
-    img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-2-21648130624.jpg",
-    img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-3-31648130625.jpg",
-    img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-4-41648130627.jpg"
-  },
-
-  {
-    itemId: 1,
-    itemName: "Tênis Nike Air Force 1 '07 LV8 Next Nature Masculino",
-    price: 999.99,
-    colors: "white",
-    img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-1-11649248638.jpg",
-    img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-2-21649248639.jpg",
-    img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-3-21649248639.jpg",
-    img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-4-21649248639.jpg"
-  },
-
-  {
-    itemId: 1,
-    itemName: "Tênis Nike Air Force 1 Mid '07 Masculino",
-    price: 899.99,
-    colors: "brown",
-    img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-1-11628872503.jpg",
-    img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-2-21628872505.jpg",
-    img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-3-21628872505.jpg",
-    img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-4-21628872505.jpg"
-  },
-
-  {
-    itemId: 1,
-    itemName: "Tênis Nike Sportswear Air Force 1 '07 Shroud Masculino",
-    price: 849.99,
-    colors: "white",
-    img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-1-11634658430.jpg",
-    img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-2-11634658430.jpg",
-    img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-3-11634658430.jpg",
-    img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-4-11634658430.jpg"
+    1: [
+      {
+        itemId: 1,
+        brand: "nike",
+        itemName: "Tênis Nike Air Force 1 '07 LV8 2 Masculino",
+        price: 749.99,
+        colors: "gray",
+        img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-1-11648130623.jpg",
+        img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-2-21648130624.jpg",
+        img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-3-31648130625.jpg",
+        img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-4-41648130627.jpg"
+      },
+    
+      {
+        itemId: 2,
+        brand: "nike",
+        itemName: "Tênis Nike Air Force 1 '07 LV8 Next Nature Masculino",
+        price: 999.99,
+        colors: "white",
+        img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-1-11649248638.jpg",
+        img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-2-21649248639.jpg",
+        img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-3-21649248639.jpg",
+        img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-07-lv8-nn-nsc-DM0117-100-4-21649248639.jpg"
+      },
+    
+      {
+        itemId: 3,
+        brand: "nike",
+        itemName: "Tênis Nike Air Force 1 Mid '07 Masculino",
+        price: 899.99,
+        colors: "brown",
+        img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-1-11628872503.jpg",
+        img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-2-21628872505.jpg",
+        img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-3-21628872505.jpg",
+        img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-air-force-1-mid-07-DJ9158-200-4-21628872505.jpg"
+      },
+    
+      {
+        itemId: 4,
+        brand: "nike",
+        itemName: "Tênis Nike Sportswear Air Force 1 '07 Shroud Masculino",
+        price: 849.99,
+        colors: "white",
+        img1: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-1-11634658430.jpg",
+        img2: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-2-11634658430.jpg",
+        img3: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-3-11634658430.jpg",
+        img4: "https://images.lojanike.com.br/1024x1024/produto/tenis-nike-sportswear-air-force-1-07-shroud-masculino-DC8875-100-4-11634658430.jpg"
+      }
+    ]
   }
+  
 
 ]
